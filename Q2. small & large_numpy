@@ -1,0 +1,13 @@
+#Q2 Write a Python program to get the largest and smallest number from a list without builtin functions.
+numbers = [34, 78, 10, 86, 45, 67, 23]
+largest = numbers[0]
+smallest = numbers[0]
+
+for number in numbers:
+    if number > largest:
+        largest = number
+    if number < smallest:
+        smallest = number
+
+print("The largest number in the list is:", largest)
+print("The smallest number in the list is:", smallest)
