@@ -7,7 +7,6 @@ df = pd.read_csv("D:\\NIK'S_FOLDER\Pandas_Lib\customer_data (1).csv")
 print("Data Frame\n",df)
 Marital_status_counts = df['Marital_status'].value_counts()
 
-# Displaying the counts
 print("Marital status-wise student count:")
 print(Marital_status_counts)
 
